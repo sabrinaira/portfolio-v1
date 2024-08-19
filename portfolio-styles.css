@@ -1,0 +1,148 @@
+/* */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /*horizontal */
+  align-items: center; /* vertical */
+  text-align: center;
+}
+
+body {
+  display: block;
+  height: 100%;
+  background: #f2f2f2;
+}
+
+header h1 {
+  background-color: #f2c9cf;
+  color: #2e3532;
+  margin-top: 15%;
+  border-radius: 0.7rem;
+  padding: 0.4rem;
+}
+
+nav {
+  display: block;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.nav-links a {
+  text-decoration: none;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #c9e6cf;
+  color: #715b64;
+  border-radius: 0.3rem;
+  font-weight: 800;
+}
+
+/* PROFILE CONTENTS */
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #f2c9cf;
+  border-radius: 30pt;
+  padding: 2rem;
+}
+
+.profile img {
+  margin-top: 0.5rem;
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50pt;
+  margin-bottom: 2rem;
+  align-self: center;
+}
+
+.code-logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.code-logos img {
+  width: 3rem;
+  height: auto;
+  margin-top: 1rem;
+}
+
+.profile h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+  color: #993366;
+}
+
+.profile p {
+  display: flex;
+  width: 25rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #333333;
+}
+
+/* CONTACT INFORMATION */
+.contact-info {
+  margin-top: 2%;
+  display: block;
+  text-align: center;
+  margin-bottom: 10%;
+}
+
+.contact-info h4 {
+  background-color: #f2c9cf;
+  color: #2e3532;
+  padding: 0.4rem;
+  border-radius: 0.4rem;
+}
+
+.nav-contact {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.nav-contact a {
+  text-decoration: none;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  font-size: 0.8rem;
+  background-color: #c9e6cf;
+  border-radius: 0.3rem;
+}
+
+.nav-contact a img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2rem;
+  height: auto;
+}
+
+/* footer */
+.footer {
+  text-align: center;
+  margin-bottom: 1rem;
+}
