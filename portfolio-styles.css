@@ -1,3 +1,4 @@
+/* LIGHT MODE */
 /* */
 
 * {
@@ -10,7 +11,7 @@ html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-main {
+header {
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -19,18 +20,29 @@ main {
   text-align: center;
 }
 
+header h1 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: oblique;
+  background-color: #f2c9cf;
+  color: #2e3532;
+  border-radius: 0.7rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+
+main {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 body {
   display: block;
   height: 100%;
   background: #f2f2f2;
-}
-
-header h1 {
-  background-color: #f2c9cf;
-  color: #2e3532;
-  margin-top: 15%;
-  border-radius: 0.7rem;
-  padding: 0.4rem;
 }
 
 nav {
@@ -81,13 +93,14 @@ nav {
 }
 
 .code-logos img {
-  width: 3rem;
+  width: 3em;
   height: auto;
   margin-top: 1rem;
 }
 
 .profile h3 {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: 600;
   margin-bottom: 0.8rem;
   color: #993366;
@@ -141,8 +154,39 @@ nav {
   height: auto;
 }
 
-/* footer */
+/* --- ABOUT ME --- */
+#aboutMe-photo {
+  width: 50rem;
+  height: auto;
+  border-radius: 50pt;
+}
+
+/* --- PROJECTS--- */
+#artProject {
+  width: 70rem;
+  height: auto;
+  border-radius: 50pt;
+}
+
+/* Hover links */
+.nav-links a:hover {
+  color: #c9e6cf;
+  background-color: #715b64;
+  transition: 0.5s;
+}
+
+.nav-contact a:hover {
+  background-color: #715b64;
+  transition: 0.5s;
+}
+
+/* --- footer --- */
 .footer {
+  font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   margin-bottom: 1rem;
+}
+
+.footer p {
+  margin-top: 1rem;
 }

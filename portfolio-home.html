@@ -3,32 +3,49 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="portfolio-styles.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="portfolio-styles.css"
+      id="theme-link"
+    />
     <title>Sabrina Ira | Portfolio Home</title>
   </head>
   <body>
-    <main>
+    <!--button-->
+    <button id="toggle-button">Click Me</button>
+    
       <!--title-->
       <header>
         <h1>Nice to meet you!</h1>
+        <!--navigation bar-->
+        <nav>
+          <ul class="nav-links">
+            <a href="portfolio-home.html"><li>Home</li></a>
+            <a href="portfolio-about.html"><li>About</li></a>
+            <a href="portfolio-projects.html"><li>Projects</li></a>
+          </ul>
+        </nav>
+        </header>
+    
+        <main>
       </header>
-      <!--navigation bar-->
-      <nav>
-        <ul class="nav-links">
-          <a href="#"><li>Home</li></a>
-          <a href="#"><li>About</li></a>
-          <a href="#"><li>Projects</li></a>
-        </ul>
-      </nav>
       <!--profile section-->
       <section class="profile">
-        <img src="assets/sabrinaira-profile-pic-2.jpg" alt="profile picture" />
+        <img id="darkModeImg" src="assets/sabrinaira-profile-pic-light.jpg" alt="Sabrina's Profile Picture" >
         <h3>Hi, my name is Sabrina Ira.</h3>
-        <p>Visual Artist and Software Engineer from NYC.</p>
+        <p>
+          Digital Illustrator, Visual Artist, and aspiring Software Engineer
+          from NYC.
+        </p>
         <div class="code-logos">
-        <img src="assets/javascript-logo.png" alt="javascript" id="javascript-logo" />
-        <img src="assets/html5-logo.png" alt="html" id="html-logo" />
-        <img src="assets/css3-logo.png" alt="css" id="css-logo" />
+          <img
+            src="assets/javascript-logo.png"
+            alt="javascript"
+            id="javascript-logo"
+          />
+          <img src="assets/html5-logo.png" alt="html" id="html-logo" />
+          <img src="assets/css3-logo.png" alt="css" id="css-logo" />
         </div>
       </section>
       <section class="info"></section>
@@ -48,10 +65,12 @@
         </ul>
       </section>
     </main>
+    
     <!--footer-->
     <footer class="footer">
       <h5>Oh yeah. I totally made this from scratch.</h5>
-      <h6>beep bop boop.</h6>
+      <p>&copy 2024 Sabrina Ira</p>
     </footer>
   </body>
+  <script src="portfolio_toggle-button.js"></script>
 </html>
