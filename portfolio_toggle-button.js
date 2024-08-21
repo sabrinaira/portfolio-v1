@@ -3,6 +3,7 @@ const btn = document.getElementById('toggle-button');
 // Select the stylesheet <link>
 const theme = document.getElementById('theme-link');
 const image = document.getElementById('darkModeImg');
+const fcIcon = document.getElementById('fc1');
 
 // Listen for a click on the button
 btn.addEventListener('click', function () {
@@ -10,11 +11,13 @@ btn.addEventListener('click', function () {
   if (theme.getAttribute('href') == 'portfolio-styles.css') {
     // ... then switch it to "dark-theme.css"
     theme.href = 'portfolio-styles_dark.css';
+    fcIcon.src = 'assets/future-code-1-logo-darkblue_64.png';
     image.src = 'assets/sabrinaira-profile-pic-dark.jpg';
     // Otherwise...
   } else {
     // ... switch it to "light-theme.css"
     theme.href = 'portfolio-styles.css';
+    fcIcon.src = 'assets/future-code-1-logo_64.png';
     image.src = 'assets/sabrinaira-profile-pic-light.jpg';
   }
 });

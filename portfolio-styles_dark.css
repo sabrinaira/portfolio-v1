@@ -11,15 +11,22 @@ html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* BUTTON */
 button {
   background-color: #3b4661;
   margin: 1rem;
   padding: 1rem;
   border-radius: 100%;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #f2a365;
+  transition: 0.5s;
 }
 
 button img {
-  width: 2.5rem;
+  width: 2.2rem;
   height: auto;
 }
 
@@ -71,11 +78,11 @@ nav {
 .nav-links a {
   text-decoration: none;
   margin: 1rem;
-  padding: 1rem;
+  padding-inline: 1rem;
+  padding-block: 0.5rem;
   background-color: #3b4661;
   color: #f2a365;
-  border-radius: 0.3rem;
-  font-weight: 800;
+  border-radius: 0.5rem;
 }
 
 /* PROFILE CONTENTS */
@@ -167,10 +174,27 @@ nav {
 }
 
 /* --- ABOUT ME --- */
+.about-me {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  width: 45rem;
+  color: #d9d9d9;
+}
+
 #aboutMe-photo {
-  width: 50rem;
+  width: 40rem;
   height: auto;
   border-radius: 50pt;
+}
+
+.about-me p {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: small;
 }
 
 /* --- PROJECTS--- */
