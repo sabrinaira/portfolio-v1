@@ -152,6 +152,7 @@ nav {
   color: #d9d9d9;
   padding: 0.5rem;
   border-radius: 0.5rem;
+  text-align: center;
 }
 
 .nav-contact {
@@ -212,13 +213,44 @@ nav {
 }
 
 /* --- PROJECTS--- */
-#artProject {
-  width: 70rem;
-  height: auto;
-  border-radius: 50pt;
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #d9d9d9;
 }
 
-/* Hover links */
+.project-1 {
+  background-color: #52797f;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
+  margin-inline: 20rem;
+  width: 35rem;
+  height:auto;
+  border-radius: 30pt;
+}
+
+.projects h3 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-bottom: 0.5rem;
+}
+
+.projects p {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  text-align: justify;
+  margin-inline: 2.5rem;
+}
+
+.project-img {
+  width: 30rem;
+  height: auto;
+  border-radius: 30pt;
+}
+
+/* --- Hover links --- */
 .nav-links a:hover {
   color: #3b4661;
   background-color: #f2a365;
@@ -229,6 +261,18 @@ nav {
   background-color: #f2a365;
   transition: 0.5s;
 }
+
+.project-1:hover {
+  background-color: #f2a365;
+  color: #3b4661;
+  transition: 0.5s;
+}
+
+.footer-contact a:hover {
+  color: #3b4661;
+  background-color: #f2a365;
+  transition: 0.5s;
+} 
 
 /* --- footer --- */
 .footer {
@@ -255,8 +299,8 @@ nav {
 .footer-contact a {
   text-decoration: none;
   margin-inline: 1rem;
-  background-color: #f2c9cf;
-  color:#2e3532;
+  background-color: #3b4661;
+  color: #f2a365;
   padding: 0.5rem;
   border-radius: 0.5rem;
   margin-top: 1rem;
