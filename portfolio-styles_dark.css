@@ -11,7 +11,7 @@ html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/* BUTTON */
+/* --------------- BUTTON --------------- */
 button {
   background-color: #3b4661;
   margin: 1rem;
@@ -32,7 +32,7 @@ button img {
   height: auto;
 }
 
-/* HEADER */
+/* --------------- HEADER --------------- */
 header {
   height: 100%;
   display: flex;
@@ -68,6 +68,8 @@ body {
   background: #121230;
 }
 
+/* --------------- NAVIGATION --------------- */
+
 nav {
   display: block;
   margin-bottom: 0.4rem;
@@ -90,7 +92,7 @@ nav {
   border-radius: 0.5rem;
 }
 
-/* PROFILE CONTENTS */
+/* --------------- PROFILE CONTENTS --------------- */
 .profile {
   display: flex;
   flex-direction: column;
@@ -139,7 +141,7 @@ nav {
   color: #d9d9d9;
 }
 
-/* CONTACT INFORMATION */
+/* --------------- CONTACT INFORMATION --------------- */
 .contact-info {
   margin-top: 2rem;
   display: block;
@@ -182,7 +184,7 @@ nav {
   height: auto;
 }
 
-/* --- ABOUT ME --- */
+/* --------------- ABOUT ME --------------- */
 .about-me {
   margin-top: 1rem;
   display: flex;
@@ -212,7 +214,7 @@ nav {
   text-align: justify;
 }
 
-/* --- PROJECTS--- */
+/* --------------- PROJECTS --------------- */
 .projects {
   display: flex;
   flex-direction: column;
@@ -221,7 +223,7 @@ nav {
   color: #d9d9d9;
 }
 
-.project-1 {
+.project-sub {
   background-color: #52797f;
   padding: 1rem;
   margin-bottom: 1.5rem;
@@ -234,23 +236,25 @@ nav {
 
 .projects h3 {
   font-family: Georgia, 'Times New Roman', Times, serif;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 .projects p {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
-  text-align: justify;
   margin-inline: 2.5rem;
+  text-align: justify;
+  font-size: 0.8rem;
 }
 
 .project-img {
   width: 30rem;
   height: auto;
   border-radius: 30pt;
+  transition: 0.5s;
 }
 
-/* --- Hover links --- */
+/* --------------- Hover links --------------- */
 .nav-links a:hover {
   color: #3b4661;
   background-color: #f2a365;
@@ -262,7 +266,7 @@ nav {
   transition: 0.5s;
 }
 
-.project-1:hover {
+.project-sub:hover {
   background-color: #f2a365;
   color: #3b4661;
   transition: 0.5s;
@@ -272,9 +276,15 @@ nav {
   color: #3b4661;
   background-color: #f2a365;
   transition: 0.5s;
-} 
+}
 
-/* --- footer --- */
+.project-img:hover {
+  cursor: pointer;
+  width: 32rem;
+  height: auto;
+}
+
+/* --------------- footer --------------- */
 .footer {
   display: flex;
   flex-direction: column;
@@ -310,3 +320,22 @@ nav {
 .footer p {
   margin-top: 1rem;
 }
+
+/* --------------- MEDIA QUERY --------------- */
+
+@media screen and (min-width: 320px) and (max-width:768px) {
+
+
+  button{
+    margin: 0.3rem;
+    padding-inline: 0.4rem;
+    padding-block: 0.2rem;
+  }
+
+  .nav-links a{
+    margin: 0.3rem;
+    padding-inline: 0.4rem;
+    padding-block: 0.2rem;
+  }
+
+    }
