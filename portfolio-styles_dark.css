@@ -233,7 +233,7 @@ nav {
   margin-bottom: 1.5rem;
   margin-inline: 20rem;
   width: 35rem;
-  height:auto;
+  height: auto;
   border-radius: 30pt;
   transition: 0.5s;
 }
@@ -327,19 +327,16 @@ nav {
 
 /* --------------- MEDIA QUERY --------------- */
 
-@media screen and (min-width: 320px) and (max-width:768px) {
-
-
-  button{
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  button {
     margin: 0.3rem;
     padding-inline: 0.4rem;
     padding-block: 0.2rem;
   }
 
-  .nav-links a{
+  .nav-links a {
     margin: 0.3rem;
     padding-inline: 0.4rem;
     padding-block: 0.2rem;
   }
-
-    }
+}
