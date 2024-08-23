@@ -20,6 +20,7 @@ button {
   border: none;
   border-radius: 10pt;
   cursor: pointer;
+  transition: 0.5s;
 }
 
 button:hover {
@@ -90,6 +91,7 @@ nav {
   background-color: #3b4661;
   color: #f2a365;
   border-radius: 0.5rem;
+  transition: 0.5s;
 }
 
 /* --------------- PROFILE CONTENTS --------------- */
@@ -172,6 +174,7 @@ nav {
   padding-block: 0.5rem;
   background-color: #3b4661;
   border-radius: 0.5rem;
+  transition: 0.5s;
 }
 
 .nav-contact img[alt='gmail'] {
@@ -232,6 +235,7 @@ nav {
   width: 35rem;
   height:auto;
   border-radius: 30pt;
+  transition: 0.5s;
 }
 
 .projects h3 {
