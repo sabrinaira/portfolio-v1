@@ -18,13 +18,8 @@ button {
   padding-inline: 1.5rem;
   padding-block: 0.1rem;
   border: none;
-  border-radius: 10pt;
+  border-radius: 0.5rem;
   cursor: pointer;
-  transition: 0.5s;
-}
-
-button:hover {
-  background-color: #f2a365;
   transition: 0.5s;
 }
 
@@ -76,7 +71,9 @@ body {
 
 nav {
   display: block;
-  margin-bottom: 0.4rem;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.5rem;
 }
 
 .nav-links {
@@ -115,6 +112,7 @@ nav {
   border-radius: 50pt;
   margin-bottom: 2rem;
   align-self: center;
+  transition: 0.5s;
 }
 
 .code-logos {
@@ -145,6 +143,7 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
   color: #d9d9d9;
   transition: 0.5s;
 }
@@ -159,12 +158,14 @@ nav {
   align-self: center;
   width: 40rem;
   color: #d9d9d9;
+  transition: 0.5s;
 }
 
 #aboutMe-photo {
   width: 40rem;
   height: auto;
   border-radius: 50pt;
+  transition: 0.5s;
 }
 
 .about-me h2 {
@@ -235,12 +236,14 @@ nav {
 }
 
 /* --------------- Hover links --------------- */
-.nav-links a:hover {
+.nav-links a:hover,
+.footer-contact a:hover {
   color: #3b4661;
   background-color: #f2a365;
   transition: 0.5s;
 }
 
+button:hover,
 .nav-contact a:hover {
   background-color: #f2a365;
   transition: 0.5s;
@@ -249,12 +252,6 @@ nav {
 .project-sub:hover {
   background-color: #f2a365;
   color: #3b4661;
-  transition: 0.5s;
-}
-
-.footer-contact a:hover {
-  color: #3b4661;
-  background-color: #f2a365;
   transition: 0.5s;
 }
 
@@ -352,14 +349,100 @@ nav {
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
   button {
-    margin: 0.3rem;
-    padding-inline: 0.4rem;
-    padding-block: 0.2rem;
+    margin: 0.4rem;
+    padding-inline: 1rem;
+    padding-block: 0.3rem;
+  }
+
+  button img {
+    width: 0.9rem;
+    height: auto;
+    transition: 0.5s;
   }
 
   .nav-links a {
-    margin: 0.3rem;
-    padding-inline: 0.4rem;
-    padding-block: 0.2rem;
+    font-size: smaller;
+    margin: 0.4rem;
+    padding-inline: 0.3rem;
+    padding-block: 0.3rem;
+  }
+
+  .profile {
+    padding: 1rem;
+    border-radius: 20pt;
+  }
+
+  .profile img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 30pt;
+    transition: 0.5s;
+  }
+
+  header h1,
+  .profile h3 {
+    font-size: small;
+  }
+
+  .profile p {
+    font-size: small;
+    width: 15rem;
+  }
+
+  .code-logos img {
+    width: 2em;
+    height: auto;
+  }
+
+  .about-me,
+  #aboutMe-photo {
+    width: 25rem;
+    transition: 0.5s;
+  }
+
+  .about-me h2 {
+    font-size: medium;
+  }
+
+  .projects,
+  .project-note,
+  .project-sub {
+    width: 20rem;
+    padding: 1rem;
+    transition: 0.5s;
+  }
+
+  .projects p {
+    font-size: 0.7rem;
+  }
+
+  .project-img,
+  .project-img:hover {
+    width: 20rem;
+    height: auto;
+    transition: 0.5s;
+  }
+
+  .contact-info {
+    width: 12rem;
+    transition: 0.5s;
+  }
+
+  .contact-info h4 {
+    font-size: small;
+    transition: 0.5s;
+  }
+
+  .nav-contact a {
+    margin: 0.5rem;
+    padding-inline: 0.5rem;
+    padding-block: 0.3rem;
+    transition: 0.5s;
+  }
+
+  .nav-contact a img {
+    width: 1.4rem;
+    height: auto;
+    transition: 0.5s;
   }
 }
