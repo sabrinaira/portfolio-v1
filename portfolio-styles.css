@@ -159,11 +159,18 @@ nav {
   transition: 0.5s;
 }
 
-#aboutMe-photo {
+.aboutMe-image {
   width: 40rem;
   height: auto;
   border-radius: 50pt;
   transition: 0.5s;
+  padding: 0 1rem 0 1rem;
+}
+
+#aboutMe-photo {
+  width: 100%;
+  height: auto;
+  border-radius: 50pt;
 }
 
 .about-me h2 {
@@ -393,10 +400,13 @@ button:hover,
     height: auto;
   }
 
-  .about-me,
-  #aboutMe-photo {
+  .about-me {
     width: 25rem;
     transition: 0.5s;
+  }
+
+  .aboutMe-image {
+    width: 20rem;
   }
 
   .about-me h2 {
