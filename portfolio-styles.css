@@ -403,6 +403,10 @@ button:hover,
     font-size: medium;
   }
 
+  .about-me p {
+    padding: 1em 3em 1em 3em;
+  }
+
   .projects,
   .project-note,
   .project-sub {
