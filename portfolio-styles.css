@@ -219,6 +219,15 @@ nav {
   transition: 0.5s;
 }
 
+.a-links {
+  text-decoration: none;
+  color: #2e3532;
+  font-size: smaller;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: space-between;
+  padding: 1em;
+}
+
 .projects h3 {
   font-family: Georgia, 'Times New Roman', Times, serif;
   margin-bottom: 1rem;
@@ -262,6 +271,12 @@ button:hover,
   cursor: pointer;
   width: 32rem;
   height: auto;
+}
+
+.a-links:hover {
+  transition: 0.5s;
+  text-decoration: none;
+  color: white;
 }
 
 /* --------------- CONTACT INFORMATION --------------- */
