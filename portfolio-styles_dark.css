@@ -206,7 +206,7 @@ nav {
 .project-sub {
   background-color: #52797f;
   padding: 1rem;
-  margin-bottom: 1.5rem;
+  padding-bottom: 2em;
   margin-bottom: 1.5rem;
   margin-inline: 20rem;
   width: 35rem;
@@ -220,20 +220,35 @@ nav {
   margin-bottom: 1rem;
 }
 
-.projects p {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-  margin-inline: 2.5rem;
-  text-align: justify;
-  font-size: 0.8rem;
-}
-
 .project-img {
   width: 30rem;
   height: auto;
   border-radius: 30pt;
   transition: 0.5s;
 }
+
+.projects p {
+  margin-top: 0.5rem;
+  margin-bottom: 1.3rem;
+  margin-inline: 2.5rem;
+  text-align: justify;
+  font-size: 0.8rem;
+}
+
+.a-links {
+  transition: 0.5s;
+  text-decoration: none;
+  background-color: #121230;
+  color: #5ccd85;
+  box-shadow: 0px 1px 1px 2px #68b0aa;
+  font-size: smaller;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: space-between;
+  margin-inline: 1em;
+  padding: 0.4em;
+  border-radius: 0.6em;
+}
+
 
 /* --------------- Hover links --------------- */
 .nav-links a:hover,
@@ -259,6 +274,13 @@ button:hover,
   cursor: pointer;
   width: 32rem;
   height: auto;
+}
+
+.a-links:hover {
+  transition: 0.5s;
+  text-decoration: none;
+  color: #ffc8fd;
+  background-color: #357ab7;
 }
 
 /* --------------- CONTACT INFORMATION --------------- */

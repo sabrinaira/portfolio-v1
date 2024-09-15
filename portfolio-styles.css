@@ -193,6 +193,7 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: #715b64;
 }
 
 .project-note {
@@ -210,7 +211,7 @@ nav {
 .project-sub {
   background-color: #f2c9cf;
   padding: 1rem;
-  margin-bottom: 1.5rem;
+  padding-bottom: 2em;
   margin-bottom: 1.5rem;
   margin-inline: 20rem;
   width: 35rem;
@@ -219,26 +220,9 @@ nav {
   transition: 0.5s;
 }
 
-.a-links {
-  text-decoration: none;
-  color: #2e3532;
-  font-size: smaller;
-  font-family: Arial, Helvetica, sans-serif;
-  justify-content: space-between;
-  padding: 1em;
-}
-
 .projects h3 {
   font-family: Georgia, 'Times New Roman', Times, serif;
   margin-bottom: 1rem;
-}
-
-.projects p {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-  margin-inline: 2.5rem;
-  text-align: justify;
-  font-size: 0.8rem;
 }
 
 .project-img {
@@ -246,6 +230,28 @@ nav {
   height: auto;
   border-radius: 30pt;
   transition: 0.5s;
+}
+
+.projects p {
+  margin-top: 0.5rem;
+  margin-bottom: 1.3rem;
+  margin-inline: 2.5rem;
+  text-align: justify;
+  font-size: 0.8rem;
+}
+
+.a-links {
+  transition: 0.5s;
+  text-decoration: none;
+  background-color: #f2f2f2;
+  color: #4b929f;
+  box-shadow: 0px 1px 1px 2px #c27980;
+  font-size: smaller;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: space-between;
+  margin-inline: 1em;
+  padding: 0.4em;
+  border-radius: 0.6em;
 }
 
 /* --------------- Hover links --------------- */
@@ -264,6 +270,7 @@ button:hover,
 
 .project-sub:hover {
   background-color: #c9e6cf;
+  color: #0e5c6a;
   transition: 0.5s;
 }
 
@@ -276,7 +283,8 @@ button:hover,
 .a-links:hover {
   transition: 0.5s;
   text-decoration: none;
-  color: white;
+  color: rgb(132, 72, 130);
+  background-color: #e6c9df;
 }
 
 /* --------------- CONTACT INFORMATION --------------- */
@@ -436,7 +444,8 @@ button:hover,
   .project-note,
   .project-sub {
     width: 20rem;
-    padding: 1rem;
+    padding: 2rem;
+    padding-bottom: 2em;
     transition: 0.5s;
   }
 
