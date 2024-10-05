@@ -161,11 +161,18 @@ nav {
   transition: 0.5s;
 }
 
+.aboutMe-image {
+  width: 100%;
+  height: auto;
+  border-radius: 50pt;
+  transition: 0.5s;
+  padding: 0 1rem 0 1rem;
+}
+
 #aboutMe-photo {
   width: 40rem;
   height: auto;
   border-radius: 50pt;
-  transition: 0.5s;
 }
 
 .about-me h2 {
@@ -248,7 +255,6 @@ nav {
   padding: 0.4em;
   border-radius: 0.6em;
 }
-
 
 /* --------------- Hover links --------------- */
 .nav-links a:hover,
@@ -416,21 +422,29 @@ button:hover,
     height: auto;
   }
 
-  .about-me,
-  #aboutMe-photo {
+  .about-me {
     width: 25rem;
     transition: 0.5s;
+  }
+
+  .aboutMe-image {
+    width: 20rem;
   }
 
   .about-me h2 {
     font-size: medium;
   }
 
+  .about-me p {
+    padding: 1em 3em 1em 3em;
+  }
+
   .projects,
   .project-note,
   .project-sub {
     width: 20rem;
-    padding: 1rem;
+    padding: 2rem;
+    padding-bottom: 2em;
     transition: 0.5s;
   }
 
