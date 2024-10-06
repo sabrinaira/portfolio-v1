@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="assets/pixel-heart-48.png">
     <link
       rel="stylesheet"
       type="text/css"
@@ -10,10 +11,9 @@
       id="theme-link"
     />
     <title>Sabrina Ira | Projects</title>
-<!-- Inline script to apply the stored theme before the page loads -->
 <script>
-  // Check localStorage for the saved theme
-  const savedTheme = localStorage.getItem('theme') || 'light'; // default to light
+  const savedTheme = localStorage.getItem('theme') || 'light';
+  console.log('Loaded theme from localStorage:', savedTheme); // Log the loaded theme
   const themeLink = document.getElementById('theme-link');
   themeLink.href = savedTheme === 'dark' ? 'portfolio-styles_dark.css' : 'portfolio-styles.css';
 </script>
@@ -29,9 +29,8 @@
           <button id="toggle-button">
             <img
               id="button-symbol"
-              src="assets/icons8-dark-mode-32.png"
-              alt="Dark and Light Mode Toggle Button"
-            />
+              src="assets/dark-mode-50.png"
+              alt="Dark and Light Mode Toggle Button"/>
           </button>
           <a href="index.html"><li>Home</li></a>
           <a href="about.html"><li>About</li></a>
@@ -152,5 +151,5 @@
       <p>&copy 2024 Sabrina Ira</p>
     </footer>
   </body>
-  <script src="portfolio_toggle-button.js"></script>
+  <script src="portfolio_toggle-button.js" defer></script>
 </html>
