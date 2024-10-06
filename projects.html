@@ -10,6 +10,13 @@
       id="theme-link"
     />
     <title>Sabrina Ira | Projects</title>
+<!-- Inline script to apply the stored theme before the page loads -->
+<script>
+  // Check localStorage for the saved theme
+  const savedTheme = localStorage.getItem('theme') || 'light'; // default to light
+  const themeLink = document.getElementById('theme-link');
+  themeLink.href = savedTheme === 'dark' ? 'portfolio-styles_dark.css' : 'portfolio-styles.css';
+</script>
   </head>
   <body>
     <!--title-->
@@ -29,6 +36,7 @@
           <a href="index.html"><li>Home</li></a>
           <a href="about.html"><li>About</li></a>
           <a href="projects.html"><li>Projects</li></a>
+          <a href="assets/résumé.pdf" target="_blank"><li>Résumé</li></a>
         </ul>
       </nav>
     </header>
@@ -41,36 +49,28 @@
         <!--Project 3-->
         <section class="project-sub">
           <h3>New Project Coming Soon!</h3>
-          <a href="#" target="_blank">
-            <img
-              class="project-img"
-              src="assets/pavel-herceg-zWOQD6fFCBs-unsplash.jpg"
-              alt="Sabrina's Project"
-          /></a>
-          <p>
-            Augue rhoncus metus risus elit platea amet. Mauris habitasse gravida
-            semper malesuada lacus. Ipsum nascetur lacinia facilisi ornare a
-            elementum. Nunc lobortis egestas morbi dis curae fringilla?
-            Tristique bibendum aliquam luctus pellentesque facilisis dui tellus
-            iaculis. Habitant donec tristique mauris pulvinar cubilia; tempus
-            congue ipsum. Parturient nullam litora cubilia elit ipsum lorem. Est
-            montes pulvinar nullam; dictumst porttitor eleifend ad enim.
-          </p>
-          <a class="a-links" href="#" target="_blank"> Preview</a>
-          <a class="a-links" href="#" target="_blank"> Github</a>
+          <!-- <a href="#" target="_blank"> -->
+          <img
+            class="project-img"
+            src="https://images.unsplash.com/photo-1611695267521-9891f56679a1?q=80&w=1659&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Sabrina's Project"
+          /><!--</a> -->
+          <p>More projects soon to come.</p>
+          <a class="a-links" href="#" target=""> Preview</a>
+          <a class="a-links" href="#" target=""> Github</a>
         </section>
         <!--Project 2-->
         <section class="project-sub">
           <h3>Build With Code Project: Hangman Game</h3>
-          <a
+          <!-- <a
             href="https://sabrinaira.github.io/hangman-game-project/"
             target="_blank"
-          >
-            <img
-              class="project-img"
-              src="assets/hangman-project-preview.jpg"
-              alt="Hangman Game Project Preview Image"
-          /></a>
+          > -->
+          <img
+            class="project-img"
+            src="assets/hangman-project-preview.jpg"
+            alt="Hangman Game Project Preview Image"
+          /><!-- </a> -->
           <p>
             My team and I applied advanced JavaScript fundamentals to build a
             hangman game from scratch. We developed features like random word
@@ -84,22 +84,27 @@
           <a
             class="a-links"
             href="https://sabrinaira.github.io/hangman-game-project/"
-            target="_blank">
-            Preview</a>
+            target="_blank"
+          >
+            Preview</a
+          >
           <a
             class="a-links"
             href="https://github.com/sabrinaira/hangman-game-project"
-            target="_blank">
-            Github</a>
+            target="_blank"
+          >
+            Github</a
+          >
         </section>
         <!--Project 1-->
         <section class="project-sub">
           <h3>Text Adventure Game: Pet Shop</h3>
-          <a href="https://sabrinaira.github.io/pet-shop-game/" target="_blank">
-            <img
-              class="project-img"
-              src="assets/pet-shop-game-preview.jpg"
-              alt="Sabrina's Project"/></a>
+          <!-- <a href="https://sabrinaira.github.io/pet-shop-game/" target="_blank"> -->
+          <img
+            class="project-img"
+            src="assets/pet-shop-game-preview.jpg"
+            alt="Sabrina's Project"
+          /><!--</a> -->
           <p>
             This was my first group project with 2 other members to create a
             simple text adventure game using our beginner knowledge of
@@ -108,12 +113,16 @@
           <a
             class="a-links"
             href="https://sabrinaira.github.io/pet-shop-game/"
-            target="_blank">
-            Preview</a>
+            target="_blank"
+          >
+            Preview</a
+          >
           <a
             class="a-links"
             href="https://github.com/sabrinaira/pet-shop-game"
-            target="_blank">Github</a>
+            target="_blank"
+            >Github</a
+          >
         </section>
       </section>
     </main>

@@ -1,5 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 /* LIGHT MODE */
-/* */
 
 * {
   margin: 0;
@@ -8,25 +8,25 @@
 
 html {
   font-size: 16px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: lato;
 }
 
 /* --------------- BUTTON --------------- */
 button {
-  background-color: #c9e6cf;
+  background-color: #96e0bb;
   margin: 1rem;
   padding-inline: 1.5rem;
   padding-block: 0.1rem;
   border: none;
   border-radius: 0.5rem;
   cursor: pointer;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 button img {
   width: 1.5rem;
   height: auto;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 /* --------------- HEADER --------------- */
@@ -42,13 +42,13 @@ header {
 header h1 {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-style: oblique;
-  background-color: #f2c9cf;
+  background-color: #d2b9f0;
   color: #2e3532;
   border-radius: 0.7rem;
   padding: 0.5rem;
   margin-top: 3rem;
   margin-bottom: 0.3rem;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 main {
@@ -63,9 +63,11 @@ main {
 body {
   display: block;
   height: 100%;
-  background: #f2f2f2;
-  transition: 0.5s;
+  background: #dedfea;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
+
+/* --------------- NAVIGATION --------------- */
 
 nav {
   display: block;
@@ -86,10 +88,10 @@ nav {
   margin: 1rem;
   padding-inline: 1rem;
   padding-block: 0.5rem;
-  background-color: #c9e6cf;
-  color: #715b64;
+  background-color: #96e0bb;
+  color: #3a3a52;
   border-radius: 0.5rem;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 /* --------------- PROFILE CONTENTS --------------- */
@@ -97,10 +99,10 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  background-color: #f2c9cf;
+  background-color: #d2b9f0;
   border-radius: 30pt;
   padding: 2rem;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 .profile img {
@@ -110,7 +112,7 @@ nav {
   border-radius: 50pt;
   margin-bottom: 2rem;
   align-self: center;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 .code-logos {
@@ -131,8 +133,8 @@ nav {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: 600;
   margin-bottom: 0.8rem;
-  color: #993366;
-  transition: 0.5s;
+  color: #6d5a8d;
+  transition: 0.3s;
 }
 
 .profile p {
@@ -142,8 +144,8 @@ nav {
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: #333333;
-  transition: 0.5s;
+  color: #3a3a52;
+  transition: 0.3s;
 }
 
 /* --------------- ABOUT ME --------------- */
@@ -155,15 +157,15 @@ nav {
   align-items: center;
   align-self: center;
   width: 40rem;
-  color: #2e3532;
-  transition: 0.5s;
+  color: #292c3d;
+  transition: 0.3s;
 }
 
 .aboutMe-image {
   width: 40rem;
   height: auto;
   border-radius: 50pt;
-  transition: 0.5s;
+  transition: 0.3s;
   padding: 0 1rem 0 1rem;
 }
 
@@ -176,7 +178,8 @@ nav {
 .about-me h2 {
   margin-top: 1rem;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  transition: 0.5s;
+  color: #4a3d60;
+  transition: 0.2s;
 }
 
 .about-me p {
@@ -184,7 +187,7 @@ nav {
   margin-bottom: 2rem;
   font-size: 0.9rem;
   text-align: justify;
-  transition: 0.5s;
+  transition: 0.2s;
 }
 
 /* --------------- PROJECTS --------------- */
@@ -193,23 +196,25 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: #715b64;
+  color: #292c3d;
 }
 
+/* the note in progress sign */
 .project-note {
-  background-color: #993366;
-  color: #c9e6cf;
+  cursor: not-allowed;
+  background-color: #d46a94;
+  color: #ffbaba;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 0.9rem;
   width: 35rem;
   padding: 1rem;
   margin-bottom: 2rem;
   border-radius: 0.5rem;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 .project-sub {
-  background-color: #f2c9cf;
+  background-color: #d2b9f0;
   padding: 1rem;
   padding-bottom: 2em;
   margin-bottom: 1.5rem;
@@ -217,19 +222,20 @@ nav {
   width: 35rem;
   height: auto;
   border-radius: 30pt;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 .projects h3 {
   font-family: Georgia, 'Times New Roman', Times, serif;
   margin-bottom: 1rem;
+  transition: 0.2s;
 }
 
 .project-img {
   width: 30rem;
   height: auto;
   border-radius: 30pt;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 .projects p {
@@ -240,51 +246,68 @@ nav {
   font-size: 0.8rem;
 }
 
+/* project-sub buttons */
 .a-links {
-  transition: 0.5s;
+  transition: 0.3s;
   text-decoration: none;
-  background-color: #f2f2f2;
-  color: #4b929f;
-  box-shadow: 0px 1px 1px 2px #c27980;
+  background-color: #f0d9b9;
+  color: #3a3a52;
   font-size: smaller;
-  font-family: Arial, Helvetica, sans-serif;
-  justify-content: space-between;
+  font-family: lato;
   margin-inline: 1em;
   padding: 0.4em;
+  padding-inline: 2rem;
   border-radius: 0.6em;
 }
 
 /* --------------- Hover links --------------- */
 .nav-links a:hover,
-.footer-contact a:hover {
-  color: #c9e6cf;
-  background-color: #715b64;
-  transition: 0.5s;
-}
-
+.footer-contact a:hover,
 button:hover,
 .nav-contact a:hover {
-  background-color: #715b64;
-  transition: 0.5s;
+  color: #f0e3b9;
+  background-color: #e096b3;
+  transition: 0.3s;
+  box-shadow: 0rem 0rem 0.5rem 0.1rem #c3c4cd;
 }
 
+header h1:hover,
+.profile h3:hover,
+.about-me h2:hover,
+.project-sub h3:hover,
+footer h4:hover {
+  cursor: default;
+  color: #f0d9b9;
+  text-shadow: 1px 0px 0.4rem #605474;
+  transition: 0.3s;
+}
+
+.about-me h2:hover {
+  background-color: #d2b9f0;
+  border-radius: 0.7rem;
+  padding: 0.4rem;
+}
+
+.profile:hover,
 .project-sub:hover {
-  background-color: #c9e6cf;
-  color: #0e5c6a;
-  transition: 0.5s;
+  background-color: #f0b9b9;
+  color: #955b77;
+  transition: 0.3s;
+  box-shadow: 0rem 0rem 0.5rem 0.1rem #c3c4cd;
 }
 
 .project-img:hover {
-  cursor: pointer;
-  width: 32rem;
+  /* cursor: pointer; */
+  width: 34rem;
   height: auto;
 }
 
 .a-links:hover {
-  transition: 0.5s;
+  transition: 0.3s;
   text-decoration: none;
-  color: rgb(132, 72, 130);
-  background-color: #e6c9df;
+  color: #e3f0b9;
+  background-color: #9d8abf;
+  box-shadow: 0rem 0.1rem 0.3rem 0.1rem #9d8abf;
 }
 
 /* --------------- CONTACT INFORMATION --------------- */
@@ -299,12 +322,12 @@ button:hover,
 .contact-info h4 {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: large;
-  background-color: #f2c9cf;
+  background-color: #d2b9f0;
   color: #2e3532;
   padding: 0.5rem;
   border-radius: 0.5rem;
   text-align: center;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 .nav-contact {
@@ -320,9 +343,9 @@ button:hover,
   margin: 1rem;
   padding-inline: 1rem;
   padding-block: 0.5rem;
-  background-color: #c9e6cf;
+  background-color: #96e0bb;
   border-radius: 0.5rem;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 .nav-contact img[alt='gmail'] {
@@ -345,7 +368,7 @@ button:hover,
   font-family: Arial, Helvetica, sans-serif;
   margin-bottom: 1rem;
   color: #2e3532;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 .footer img {
@@ -361,7 +384,7 @@ button:hover,
 .footer-contact a {
   text-decoration: none;
   margin-inline: 1rem;
-  background-color: #f2c9cf;
+  background-color: #d2b9f0;
   color: #2e3532;
   padding: 0.5rem;
   border-radius: 0.5rem;
@@ -371,7 +394,7 @@ button:hover,
 
 .footer p {
   margin-top: 1rem;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 /* --------------- MEDIA QUERY --------------- */
@@ -386,7 +409,7 @@ button:hover,
   button img {
     width: 0.9rem;
     height: auto;
-    transition: 0.5s;
+    transition: 0.3s;
   }
 
   .nav-links a {
@@ -405,7 +428,7 @@ button:hover,
     width: 10rem;
     height: 10rem;
     border-radius: 30pt;
-    transition: 0.5s;
+    transition: 0.3s;
   }
 
   header h1,
@@ -425,7 +448,7 @@ button:hover,
 
   .about-me {
     width: 25rem;
-    transition: 0.5s;
+    transition: 0.3s;
   }
 
   .aboutMe-image {
@@ -446,7 +469,7 @@ button:hover,
     width: 20rem;
     padding: 2rem;
     padding-bottom: 2em;
-    transition: 0.5s;
+    transition: 0.3s;
   }
 
   .projects p {
@@ -457,29 +480,29 @@ button:hover,
   .project-img:hover {
     width: 20rem;
     height: auto;
-    transition: 0.5s;
+    transition: 0.3s;
   }
 
   .contact-info {
     width: 12rem;
-    transition: 0.5s;
+    transition: 0.3s;
   }
 
   .contact-info h4 {
     font-size: small;
-    transition: 0.5s;
+    transition: 0.3s;
   }
 
   .nav-contact a {
     margin: 0.5rem;
     padding-inline: 0.5rem;
     padding-block: 0.3rem;
-    transition: 0.5s;
+    transition: 0.3s;
   }
 
   .nav-contact a img {
     width: 1.4rem;
     height: auto;
-    transition: 0.5s;
+    transition: 0.3s;
   }
 }

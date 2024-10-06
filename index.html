@@ -10,6 +10,13 @@
       id="theme-link"
     />
     <title>Sabrina Ira | Portfolio Home</title>
+<!-- Inline script to apply the stored theme before the page loads -->
+<script>
+  // Check localStorage for the saved theme
+  const savedTheme = localStorage.getItem('theme') || 'light'; // default to light
+  const themeLink = document.getElementById('theme-link');
+  themeLink.href = savedTheme === 'dark' ? 'portfolio-styles_dark.css' : 'portfolio-styles.css';
+</script>
   </head>
   <body>
 
@@ -24,6 +31,7 @@
             <a href="index.html"><li>Home</li></a>
             <a href="about.html"><li>About</li></a>
             <a href="projects.html"><li>Projects</li></a>
+            <a href="assets/résumé.pdf" target="_blank"><li>Résumé</li></a>
           </ul>
 
         </nav>
@@ -34,8 +42,8 @@
 
       <!--profile section-->
       <section class="profile">
-        <img id="darkModeImg" src="assets/sabrinaira-profile-pic-light.jpg" alt="Sabrina's Profile Picture" >
-        <h3>Hi, my name is Sabrina Ira.</h3>
+        <img id="darkModeImg" src="assets/sabrina_light-ver.jpg" alt="Sabrina's Profile Picture" >
+        <h3>Hi, my name is Sabrina.</h3>
         <p>
           Digital Illustrator, Visual Artist, and aspiring Software Engineer
           from NYC.

@@ -10,6 +10,13 @@
       id="theme-link"
     />
     <title>Sabrina Ira | About Me</title>
+<!-- Inline script to apply the stored theme before the page loads -->
+<script>
+  // Check localStorage for the saved theme
+  const savedTheme = localStorage.getItem('theme') || 'light'; // default to light
+  const themeLink = document.getElementById('theme-link');
+  themeLink.href = savedTheme === 'dark' ? 'portfolio-styles_dark.css' : 'portfolio-styles.css';
+</script>
   </head>
   <body>
     <!--title-->
@@ -19,10 +26,17 @@
       <nav>
         <ul class="nav-links">
           <!--button-->
-          <button id="toggle-button"><img id="button-symbol" src="assets/icons8-dark-mode-32.png" alt="Dark and Light Mode Toggle Button"/></button>
+          <button id="toggle-button">
+            <img
+              id="button-symbol"
+              src="assets/icons8-dark-mode-32.png"
+              alt="Dark and Light Mode Toggle Button"
+            />
+          </button>
           <a href="index.html"><li>Home</li></a>
           <a href="about.html"><li>About</li></a>
           <a href="projects.html"><li>Projects</li></a>
+          <a href="assets/résumé.pdf" target="_blank"><li>Résumé</li></a>
         </ul>
       </nav>
     </header>
@@ -30,16 +44,26 @@
     <main>
       <section class="about-me">
         <div class="aboutMe-image">
-        <img
-          id="aboutMe-photo"
-          src="assets/sabrinaira-about-me1.jpg"
-          alt="Photo of Sabrina Ira"
-        />
-      </div>
+          <img
+            id="aboutMe-photo"
+            src="assets/sabrinaira-about-me1.jpg"
+            alt="Photo of Sabrina Ira"
+          />
+        </div>
 
         <h2>Sabrina Polutan Ira</h2>
         <p>
-          Born and raised in New York City, I earned a <em>BFA from Silliman University</em> in the Philippines. After returning to New York, I pursued a career as a freelance artist and content creator. I also developed skills in transcription and scriptwriting. During this time, I gained experience navigating social media platforms and understanding content algorithms. This passion for creating digital content eventually led me to explore the field of technology. While I always had an interest in tech, I never imagined pursuing it. Now, as a <em>Future Code</em> resident, I'm diving into software engineering, excited to blend my creativity with technology.<br><br>
+          Born and raised in New York City, I earned a
+          <em>BFA from Silliman University</em> in the Philippines. After
+          returning to New York, I pursued a career as a freelance artist and
+          content creator. I also developed skills in transcription and
+          scriptwriting. During this time, I gained experience navigating social
+          media platforms and understanding content algorithms. This passion for
+          creating digital content eventually led me to explore the field of
+          technology. While I always had an interest in tech, I never imagined
+          pursuing it. Now, as a <em>Future Code</em> resident, I'm diving into
+          software engineering, excited to blend my creativity with
+          technology.<br /><br />
         </p>
       </section>
     </main>
@@ -50,16 +74,22 @@
       <section class="contact-info">
         <h4>Where you can find me:</h4>
         <ul class="nav-contact">
-          <a href="mailto:sabrinapira@yahoo.com" target="_blank"><li><img src="assets/gmail-logo.png" alt="gmail" /></li></a>
-          <a href="https://github.com/sabrinaira" target="_blank"><li><img src="assets/github-mark.png" alt="github" /></li></a>
-          <a href="https://www.linkedin.com/in/sabrinapira/" target="_blank"><li><img src="assets/linkedin-logo.png" alt="linkedin" /></li></a>
+          <a href="mailto:sabrinapira@yahoo.com" target="_blank"
+            ><li><img src="assets/gmail-logo.png" alt="gmail" /></li
+          ></a>
+          <a href="https://github.com/sabrinaira" target="_blank"
+            ><li><img src="assets/github-mark.png" alt="github" /></li
+          ></a>
+          <a href="https://www.linkedin.com/in/sabrinapira/" target="_blank"
+            ><li><img src="assets/linkedin-logo.png" alt="linkedin" /></li
+          ></a>
         </ul>
       </section>
       <img
-      id="fc1"
-      src="assets/future-code-1-logo_64.png"
-      alt="Future Code Fan Art Icon"
-    />
+        id="fc1"
+        src="assets/future-code-1-logo_64.png"
+        alt="Future Code Fan Art Icon"
+      />
       <!-- <ul class="footer-contact">
         <a href="mailto:sabrina.ira1215@gmail.com" target="_blank"><li>Email</li></a>
         <a href="https://github.com/sabrinaira" target="_blank"><li>Github</li></a>
