@@ -14,7 +14,6 @@ Welcome to my portfolio website project. The website is available for viewing vi
 - Hovering effects
 - Different color schemes
 - Dark mode funcitonality
-- Custom cursor
 
 ### Technologies
 
