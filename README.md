@@ -25,5 +25,5 @@ HTML, CSS, JavaScript
 
 ---
 
-<a href="mailto:sabrinapira@yahoo.com">Email</a><br>
+<a href="mailto:tech_sabby-online@yahoo.com">Email</a><br>
 <a href="https://www.linkedin.com/in/sabrinapira/">LinkedIn</a>
