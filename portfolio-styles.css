@@ -12,24 +12,6 @@ html {
   font-family: lato;
 }
 
-/* --------------- BUTTON --------------- */
-button {
-  background-color: #96e0bb;
-  margin: 1rem;
-  padding-inline: 1.5rem;
-  padding-block: 0.1rem;
-  border: none;
-  border-radius: 0.5rem;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-button img {
-  width: 1.5rem;
-  height: auto;
-  transition: 0.3s;
-}
-
 /* --------------- HEADER --------------- */
 header {
   height: 100%;
@@ -68,26 +50,51 @@ body {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+/* --------------- BUTTON --------------- */
+button {
+  cursor: pointer;
+  background-color: #96e0bb;
+  margin: 0.5rem;
+  padding-inline: 1.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  transition: 0.3s;
+}
+
+button img {
+  padding-block: 0.3rem;
+  text-align: center;
+  width: 1.5rem;
+  height: auto;
+  transition: 0.3s;
+}
+
 /* --------------- NAVIGATION --------------- */
 
 nav {
   display: block;
   justify-content: center;
   align-items: center;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .nav-links {
+  align-items: center;
   list-style: none;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
 
+.nav-links li {
+  text-decoration: none;
+  margin-top: 1rem;
+}
+
 .nav-links a {
   cursor: pointer;
   text-decoration: none;
-  margin: 1rem;
+  margin: 0.5rem;
   padding-inline: 1rem;
   padding-block: 0.5rem;
   background-color: #96e0bb;
@@ -318,7 +325,6 @@ footer h4:hover {
   justify-content: center;
   align-items: center;
   margin-top: 0.5rem;
-  display: block;
 }
 
 .contact-info h4 {
@@ -336,28 +342,41 @@ footer h4:hover {
   list-style: none;
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  justify-content: center; /* Centers the entire list horizontally */
+  align-items: center; /* Aligns the content vertically within the container */
+  padding: 0; /* Ensure there's no extra padding in the UL */
+  margin: 0;
+}
+
+.nav-contact li {
+  margin-top: 0.5rem;
+  display: flex; /* Make the li a flex container */
+  justify-content: center; /* Center the content (images) horizontally */
+  align-items: center; /* Center the content vertically */
 }
 
 .nav-contact a {
+  display: flex; /* Make the anchor a flex container */
+  justify-content: center; /* Center the image inside the anchor horizontally */
+  align-items: center; /* Center the image inside the anchor vertically */
   cursor: pointer;
   text-decoration: none;
   margin: 1rem;
   padding-inline: 1rem;
-  padding-block: 0.5rem;
+  padding-block: 1rem;
   background-color: #96e0bb;
   border-radius: 0.5rem;
   transition: 0.3s;
 }
 
-.nav-contact img[alt='gmail'] {
-  padding-block: 0.2rem;
-}
+/* adjust youtube logo */
+/* .nav-contact img[alt='youtube'] {
+  padding-block: 0.1rem;
+} */
 
 .nav-contact a img {
   margin: auto;
-  width: 2.2rem;
+  width: 2.5rem;
   height: auto;
 }
 
@@ -370,21 +389,20 @@ footer h4:hover {
   margin-top: 2rem;
   font-family: Arial, Helvetica, sans-serif;
   margin-bottom: 1rem;
-  color: #2e3532;
   transition: 0.3s;
 }
 
 .footer img {
-  margin-top: 1rem;
+  margin-top: 3rem;
 }
 
-.footer-contact {
+/* .footer-contact {
   list-style: none;
   display: flex;
   flex-direction: row;
-}
+} */
 
-.footer-contact a {
+/* .footer-contact a {
   text-decoration: none;
   margin-inline: 1rem;
   background-color: #d2b9f0;
@@ -393,9 +411,10 @@ footer h4:hover {
   border-radius: 0.5rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
-}
+} */
 
 .footer p {
+  color: #2e3532;
   margin-top: 1rem;
   transition: 0.3s;
 }
@@ -404,22 +423,27 @@ footer h4:hover {
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
   button {
-    margin: 0.4rem;
+    margin: 0.2rem;
     padding-inline: 1rem;
-    padding-block: 0.3rem;
   }
 
   button img {
-    width: 0.9rem;
+    width: 1.5rem;
     height: auto;
+    padding-block: 0.3rem;
     transition: 0.3s;
   }
 
   .nav-links a {
     font-size: smaller;
-    margin: 0.4rem;
-    padding-inline: 0.3rem;
-    padding-block: 0.3rem;
+    margin: 0.2rem;
+    padding-inline: 0.5rem;
+    padding-block: 0.6rem;
+  }
+
+  header h1,
+  .profile h3 {
+    font-size: medium;
   }
 
   .profile {
@@ -434,14 +458,10 @@ footer h4:hover {
     transition: 0.3s;
   }
 
-  header h1,
-  .profile h3 {
-    font-size: small;
-  }
-
   .profile p {
-    font-size: small;
+    font-size: smaller;
     width: 15rem;
+    transition: 0.3s;
   }
 
   .code-logos img {
@@ -498,14 +518,14 @@ footer h4:hover {
   }
 
   .nav-contact a {
-    margin: 0.5rem;
-    padding-inline: 0.5rem;
-    padding-block: 0.3rem;
+    margin: 0.3rem;
+    padding-inline: 0.7rem;
+    padding-block: 0.7rem;
     transition: 0.3s;
   }
 
   .nav-contact a img {
-    width: 1.4rem;
+    width: 1.5rem;
     height: auto;
     transition: 0.3s;
   }
