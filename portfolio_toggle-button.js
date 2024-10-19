@@ -6,25 +6,25 @@ const symbol = document.getElementById('button-symbol');
 
 // Function to switch theme
 function switchTheme(newTheme) {
-  console.log('switchTheme function called with theme:', newTheme);
+  // console.log('switchTheme function called with theme:', newTheme);
   const body = document.body; // Reference to body
 
   // Apply transition class
   body.classList.add('transitioning');
 
   if (newTheme === 'dark') {
+    if (image) image.src = 'assets/sabrina_dark-ver.jpg';
     theme.href = 'portfolio-styles_dark.css';
     symbol.src = 'assets/light-mode-50.png';
     fcIcon.src = 'assets/future-code-1-logo-darkblue_64.png';
-    image.src = 'assets/sabrina_dark-ver.jpg';
     body.dataset.theme = 'dark'; // Use data attribute for easier CSS targeting
     // Log dark theme application
     console.log('Applying dark theme styles');
   } else {
+    if (image) image.src = 'assets/sabrina_light-ver.jpg';
     theme.href = 'portfolio-styles.css';
     symbol.src = 'assets/dark-mode-50.png';
     fcIcon.src = 'assets/future-code-1-logo_64.png';
-    image.src = 'assets/sabrina_light-ver.jpg';
     body.dataset.theme = 'light'; // Use data attribute for easier CSS targeting
     // Log light theme application
     console.log('Applying light theme styles');
@@ -51,6 +51,6 @@ document.addEventListener('DOMContentLoaded', () => {
 btn.addEventListener('click', () => {
   const currentTheme =
     theme.getAttribute('href') === 'portfolio-styles.css' ? 'dark' : 'light';
-  console.log('Current theme before toggle:', currentTheme); // Log current theme
+  // console.log('Current theme before toggle:', currentTheme); // Log current theme
   switchTheme(currentTheme); // Toggle theme without page reload
 });
