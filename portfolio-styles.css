@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-
 /* LIGHT MODE */
 
 * {
@@ -193,10 +192,13 @@ nav {
 
 .about-me p {
   margin-top: 2rem;
-  margin-bottom: 2rem;
-  font-size: 0.9rem;
-  text-align: justify;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  text-align: center;
   transition: 0.2s;
+  background-color: #d2b9f0;
+  padding: 1.5rem;
+  border-radius: 20pt;
 }
 
 /* --------------- PROJECTS --------------- */
@@ -243,7 +245,7 @@ nav {
 .project-img {
   width: 30rem;
   height: auto;
-  border-radius: 30pt;
+  border-radius: 15pt;
   transition: 0.3s;
 }
 
@@ -296,6 +298,13 @@ footer h4:hover {
   background-color: #d2b9f0;
   border-radius: 0.7rem;
   padding: 0.4rem;
+}
+
+.about-me p:hover {
+  background-color: #f0b9b9;
+  color: #000000;
+  box-shadow: 0rem 0rem 0.5rem 0.1rem #c3c4cd;
+  transition: 0.3s;
 }
 
 .profile:hover,
@@ -395,23 +404,6 @@ footer h4:hover {
 .footer img {
   margin-top: 3rem;
 }
-
-/* .footer-contact {
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-} */
-
-/* .footer-contact a {
-  text-decoration: none;
-  margin-inline: 1rem;
-  background-color: #d2b9f0;
-  color: #2e3532;
-  padding: 0.5rem;
-  border-radius: 0.5rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-} */
 
 .footer p {
   color: #2e3532;

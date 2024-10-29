@@ -191,10 +191,13 @@ nav {
 
 .about-me p {
   margin-top: 2rem;
-  margin-bottom: 2rem;
-  font-size: 0.9rem;
-  text-align: justify;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  text-align: center;
   transition: 0.2s;
+  background-color: #1e1827;
+  padding: 1.5rem;
+  border-radius: 20pt;
 }
 
 /* --------------- PROJECTS --------------- */
@@ -241,7 +244,7 @@ nav {
 .project-img {
   width: 30rem;
   height: auto;
-  border-radius: 30pt;
+  border-radius: 15pt;
   transition: 0.3s;
 }
 
@@ -294,6 +297,13 @@ footer h4:hover {
   background-color: #1e1827;
   border-radius: 0.7rem;
   padding: 0.4rem;
+}
+
+.about-me p:hover {
+  background-color: #86844f;
+  color: #e3f0b9;
+  box-shadow: 0rem 0rem 0.5rem 0.1rem #e3f0b9;
+  transition: 0.3s;
 }
 
 .profile:hover,

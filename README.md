@@ -1,7 +1,7 @@
 # Sabrina's Portfolio Website
 
 <!-- > Project started: August 19, 2024<br> -->
-> Last Updated: October 19, 2024
+> Last Updated: October 28, 2024
 
 Welcome to my portfolio website project. The website is available for viewing via Github pages. I plan to continue improving my portfolio as I move forward on my journey in transitioning into tech and learning web development.
 
@@ -13,7 +13,7 @@ Welcome to my portfolio website project. The website is available for viewing vi
 
 - Hovering effects
 - Different color schemes
-- Dark mode funcitonality
+- Customized dark mode funcitonality
 
 ### Technologies
 
