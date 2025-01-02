@@ -25,7 +25,7 @@ HTML, CSS, JavaScript
 
 ---
 <div>
-<a href="mailto:tech_sabby-online@yahoo.com" target="_blank"><img alt="Static Badge" src="https://img.shields.io/badge/email-logo?style=for-the-badge&color=purple">
+<a href="mailto:sabrina.vista101@slmails.com" target="_blank"><img alt="Static Badge" src="https://img.shields.io/badge/email-logo?style=for-the-badge&color=purple">
 </a> &nbsp;
 <a href="https://www.linkedin.com/in/sabrinapira/" target="_blank">
   <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
