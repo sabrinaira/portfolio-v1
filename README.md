@@ -1,5 +1,5 @@
-# portfolio-website
+# Sabrina's Portfolio Website
+#### Version 1
 
-Sabrina's Portfolio Website
-
-Project started: August 19, 2024
+Portfolio Project started: August 19, 2024
+Last updated: October 04, 2024
