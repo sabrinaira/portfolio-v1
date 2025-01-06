@@ -1,9 +1,8 @@
 # Sabrina's Portfolio Website
 
-<!-- > Project started: August 19, 2024<br> -->
-> Last Updated: January 2, 2025
+<!-- > Last Updated: January 5, 2025 -->
 
-Welcome to my portfolio website project. The website is available for viewing via Github pages. I plan to continue improving my portfolio as I move forward on my journey in transitioning into tech and learning web development.
+Currently revamping my portflio into react app.
 
 #### You can view my porfolio <a href="https://sabrinaira.github.io/portfolio/">here</a>.
 
