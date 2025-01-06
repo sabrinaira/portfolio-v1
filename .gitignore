@@ -8,3 +8,7 @@ Thumbs.db
 .Trashes
 .Spotlight-V100
 .TemporaryItems
+
+.env
+./node_modules
+node_modules
