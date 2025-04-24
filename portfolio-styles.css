@@ -102,6 +102,33 @@ nav {
   transition: 0.3s;
 }
 
+
+/* the note in progress sign */
+.site-update {
+  /* cursor: not-allowed; */
+  background-color: #d46a94;
+  color: #ffd6d6;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9rem;
+  width: 35rem;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border-radius: 0.5rem;
+  transition: 0.3s;
+}
+
+.site-update a {
+  text-decoration: none;
+  color:#000000;
+  transition: 0.2s;
+}
+
+.site-update a:hover {
+  color: #96e0bb;
+  transition: 0.2s;
+}
+
+
 /* --------------- PROFILE CONTENTS --------------- */
 .profile {
   display: flex;
@@ -208,20 +235,6 @@ nav {
   justify-content: center;
   align-items: center;
   color: #292c3d;
-}
-
-/* the note in progress sign */
-.project-note {
-  cursor: not-allowed;
-  background-color: #d46a94;
-  color: #ffbaba;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 0.9rem;
-  width: 35rem;
-  padding: 1rem;
-  margin-bottom: 2rem;
-  border-radius: 0.5rem;
-  transition: 0.3s;
 }
 
 .project-sub {

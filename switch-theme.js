@@ -18,14 +18,14 @@ function switchTheme(newTheme) {
   body.classList.add('transitioning');
 
   if (newTheme === 'dark') {
-    if (image) image.src = 'assets/sabrina_dark-ver.jpg';
+    if (image) image.src = 'https://i.imgur.com/yiKWYAl.jpeg';
     theme.href = 'portfolio-styles_dark.css';
     symbol.src = 'assets/light-mode-50.png';
     fcIcon.src = 'assets/future-code-1-logo-darkblue_64.png';
     body.dataset.theme = 'dark'; // Use data attribute for easier CSS targeting
     console.log('Applying dark theme styles');
   } else {
-    if (image) image.src = 'assets/sabrina_light-ver.jpg';
+    if (image) image.src = 'https://i.imgur.com/oIgOZdQ.jpeg';
     theme.href = 'portfolio-styles.css';
     symbol.src = 'assets/dark-mode-50.png';
     fcIcon.src = 'assets/future-code-1-logo_64.png';
@@ -35,7 +35,7 @@ function switchTheme(newTheme) {
 
   // Save theme preference
   localStorage.setItem('theme', newTheme);
-  console.log('Saved theme to localStorage:', newTheme); 
+  console.log('Saved theme to localStorage:', newTheme);
 
   // Remove the transition class after a brief moment to allow the transition to complete
   setTimeout(() => {

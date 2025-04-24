@@ -1,29 +1,27 @@
-# Sabrina's Portfolio Website
+# Sabrina's Portfolio Website (Old)
 
 <!-- > Project started: August 19, 2024<br> -->
-> Last Updated: January 2, 2025
 
-Welcome to my portfolio website project. The website is available for viewing via Github pages. I plan to continue improving my portfolio as I move forward on my journey in transitioning into tech and learning web development.
+> Last Updated: April 24, 2025 <br>
 
-#### You can view my porfolio <a href="https://sabrinaira.github.io/portfolio/">here</a>.
+#### Built with HTML, CSS, JavaScript
 
-### Features
+This is my old portfolio website. You can still view it through <a href="https://sabrinaira.github.io/portfolio-v1/">this link</a>, but most features are now hidden now that I've made a newer version, and will be continuing to update there from now on. Thank you for visiting!
+
+### <mark><a href="https://sabrinaira.github.io/portfolio/">You can view my NEW portfolio here!</a></mark >
+
+### Old Portfolio Features
 
 ---
 
 - Hovering effects
 - Different color schemes
-- Customized dark mode funcitonality
-
-### Technologies
-
----
-
-HTML, CSS, JavaScript
+- Customized dark mode functionality
 
 ### Contact
 
 ---
+
 <div>
 <a href="mailto:sabrina.vista101@slmails.com" target="_blank"><img alt="Static Badge" src="https://img.shields.io/badge/email-logo?style=for-the-badge&color=purple">
 </a> &nbsp;
