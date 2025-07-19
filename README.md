@@ -2,7 +2,7 @@
 
 <!-- > Project started: August 19, 2024<br> -->
 
-<!-- > Final Update: April 24, 2025 <br> -->
+<!-- > Final Update: July 19, 2025 <br> -->
 
 #### Built with HTML, CSS, JavaScript
 
