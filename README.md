@@ -1,8 +1,8 @@
-# <mark><a href="https://sabrinaira.github.io/">View my NEW portfolio here!</a></mark >
+# <mark><a href="https://github.com/sabrinaira/portfolio">View my NEW portfolio here!</a></mark >
 
 <!-- > Project started: August 19, 2024<br> -->
 
-> Final Update: April 24, 2025 <br>
+<!-- > Final Update: April 24, 2025 <br> -->
 
 #### Built with HTML, CSS, JavaScript
 
